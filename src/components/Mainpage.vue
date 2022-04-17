@@ -417,10 +417,5 @@ export default {
     text-align: -webkit-center;
   }
 
-@media (min-width: 1200px) {
-  .cartItemBox{
-    height: 1440px!important;
-  }
-}
 
 </style>
