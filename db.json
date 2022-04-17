@@ -1,0 +1,10 @@
+{
+  "products" : [
+    { "id" : 1, "name" : "shoesType1", "price" : "$100.00"},
+    { "id" : 2, "name" : "shoesType2", "price" : "$150.00"},
+    { "id" : 3, "name" : "shoesType3", "price" : "$200.00"},
+    { "id" : 4, "name" : "shoesType4", "price" : "$250.00"},
+    { "id" : 5, "name" : "shoesType5", "price" : "$300.00"},
+    { "id" : 6, "name" : "shoesType6", "price" : "$350.00"}
+  ]
+}
