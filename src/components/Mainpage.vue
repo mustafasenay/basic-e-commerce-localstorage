@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="container-md mb-5">
+    <div class="container mb-5">
       <div class="row">
-        <div class="col-9">
+        <div class="col-xl-9">
           <div class="row me-2">
-            <div class="col-md-4 border">
+            <div class="col-xxl-4 col-md-6 border boxCenter">
               <div class="product-card">
                 <img class="productImageSize mb-2" :src="productImage1" alt="">
                 <div class="row cardFontSize d-flex flex-column">
@@ -21,7 +21,7 @@
                 <button class="btn btn-success buttonFontSize mb-3" @click="submit1">Add to Cart</button> 
               </div>
             </div>
-            <div class="col-md-4 border">
+            <div class="col-xxl-4 col-md-6 border boxCenter">
               <div class="product-card">
                 <img class="productImageSize mb-2" :src="productImage2" alt="">
                 <div class="row cardFontSize d-flex flex-column">
@@ -38,7 +38,7 @@
                 <button class="btn btn-success buttonFontSize mb-3" @click="submit2">Add to Cart</button> 
               </div>
             </div>
-            <div class="col-md-4 border">
+            <div class="col-xxl-4 col-md-6 border boxCenter">
               <div class="product-card">
                 <img class="productImageSize mb-2" :src="productImage3" alt="">
                 <div class="row cardFontSize d-flex flex-column">
@@ -55,7 +55,7 @@
                 <button class="btn btn-success buttonFontSize mb-3" @click="submit3">Add to Cart</button> 
               </div>
             </div>
-            <div class="col-md-4 border">
+            <div class="col-xxl-4 col-md-6 border boxCenter">
               <div class="product-card">
                 <img class="productImageSize mb-2" :src="productImage4" alt="">
                 <div class="row cardFontSize d-flex flex-column">
@@ -72,7 +72,7 @@
                 <button class="btn btn-success buttonFontSize mb-3"  @click="submit4">Add to Cart</button> 
               </div>
             </div>
-            <div class="col-md-4 border">
+            <div class="col-xxl-4 col-md-6 border boxCenter">
               <div class="product-card">
                 <img class="productImageSize mb-2" :src="productImage5" alt="">
                 <div class="row cardFontSize d-flex flex-column">
@@ -89,7 +89,7 @@
                 <button class="btn btn-success buttonFontSize mb-3" @click="submit5">Add to Cart</button> 
               </div>
             </div>
-            <div class="col-md-4 border">
+            <div class="col-xxl-4 col-md-6 border boxCenter">
               <div class="product-card">
                 <img class="productImageSize mb-2" :src="productImage6" alt="">
                 <div class="row cardFontSize d-flex flex-column">
@@ -413,4 +413,14 @@ export default {
   .trashBox{
     place-self: center;
   }
+  .boxCenter{
+    text-align: -webkit-center;
+  }
+
+@media (min-width: 1200px) {
+  .cartItemBox{
+    height: 1440px!important;
+  }
+}
+
 </style>

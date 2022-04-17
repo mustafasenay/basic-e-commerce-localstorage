@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <h1>Sneakers</h1>
