@@ -2,8 +2,8 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+        <div class="col-xl-4"></div>
+        <div class="col-xl-4">
           <form class="border border-3 p-5 mt-5">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -21,7 +21,7 @@
           <button type="submit" class="btn btn-success">Submit</button>
         </form>
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-xl-4"></div>
       </div>
     </div>
   </div>
